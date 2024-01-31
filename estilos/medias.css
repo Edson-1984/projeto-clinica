@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 762px){
+    body{
+        background-color: #b5e5f3;
+        width: 100vw;
+    }
+    main{
+        background-color: white;
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    table.pagina4{
+        display: block;
+        margin: auto;
+       width: 70%;
+     
+    }
+}

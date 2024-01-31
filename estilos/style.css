@@ -80,16 +80,7 @@ header.contato {
     height: 300px;
    
 }
-body{
-    background-color: #b5e5f3;
-    width: 100%;
-}
-main{
-    background-color: white;
-    width: 80%;
-    display: block;
-    margin: auto;
-}
+
 main > menu {
     text-align: left;
     width: 200px;
@@ -217,7 +208,8 @@ h1.pagina4{
 table.pagina4{
     display: block;
     margin: auto;
-    padding: 20px;
+   
+ 
 }
 
 th{
