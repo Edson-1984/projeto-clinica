@@ -11,6 +11,7 @@
     padding: 0px;
     margin: 0px;
 }
+
 header.index{
     background-image: linear-gradient(to right,#7D5BA6, #81C3D7);
   
@@ -29,6 +30,7 @@ header.index > h1{
     top: 50%;
     transform: translate(50%, -50%);
     font-family: 'paradiso';
+    text-shadow: 2px 2px 5px black;
     font-size: 4em;
     color: #E1B7E2;    
 }
@@ -62,6 +64,15 @@ header.agenda {
 
 header.dados {
     position: relative;
+    background-image: url(../imagens/pexels-pixabay-38271.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+   
+}
+header.contato {
+    position: relative;
     background-image: url(../imagens/pexels-pavel-danilyuk-7108318.jpg);
     background-position: center;
     background-size: cover;
@@ -69,13 +80,24 @@ header.dados {
     height: 300px;
    
 }
-main.index > menu {
-    list-style-type: none;
+body{
+    background-color: #b5e5f3;
+    width: 100%;
+}
+main{
+    background-color: white;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+main > menu {
     text-align: left;
     width: 200px;
  
 } 
+
 a {
+    list-style-type: none;
     text-decoration: none;
     color: #81C3D7;
     font-family:'paradiso';
@@ -131,13 +153,186 @@ h2{
     padding: 20px;
     font-size: 2em;
     border-radius: 10px;
+    margin-top: 30px;
     
 }
 article > p{
-    padding: 50px;
+    padding: 20px;
     width: 70%;
     display: block;
     margin: auto;
     text-align: justify;
     text-indent: 30px;
+}
+h1.pagina2{
+    background-image: linear-gradient(to top, #7D5BA6, #81C3D7);
+    font-family: 'paradiso';
+    padding: 20px;
+    display: block;
+    color: #81C3D7;
+    text-shadow: 2px 2px 5px black;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+
+}
+h1.pagina3{
+    background-image: linear-gradient(to top, #7D5BA6, #81C3D7);
+    font-family: 'paradiso';
+    padding: 20px;
+    display: block;
+    color: #81C3D7;
+    text-shadow: 2px 2px 5px black;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+
+}
+.pagina3{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+li.pagina3{
+    color: #81C3D7;
+}
+h1.pagina4{
+    background-image: linear-gradient(to top, #7D5BA6, #81C3D7);
+    font-family: 'paradiso';
+    padding: 20px;
+    display: block;
+    color: #81C3D7;
+    text-shadow: 2px 2px 5px black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+}
+table.pagina4{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+th{
+
+    background-color: #7D5BA6;
+    color: #81C3D7;
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    width: 70%;
+    
+}
+td{
+    background-color:#dbf5fd;
+    color:#7D5BA6;
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    width: 70%; 
+}
+h1.pagina5{
+    background-image: linear-gradient(to top, #7D5BA6, #81C3D7);
+    font-family: 'paradiso';
+    padding: 20px;
+    display: block;
+    color: #81C3D7;
+    text-shadow: 2px 2px 5px black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+}
+section.pagina5 > p{
+    padding: 10px;
+    text-align: center;
+}
+iframe{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+h1.pagina6{
+    background-image: linear-gradient(to top, #7D5BA6, #81C3D7);
+    font-family: 'paradiso';
+    padding: 20px;
+    display: block;
+    color: #81C3D7;
+    text-shadow: 2px 2px 5px black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+}
+form{
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+}
+fieldset {
+    display: block;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+fieldset > h3{
+    margin: 10px;
+}
+input{
+    width: auto;
+    margin: 5px;
+    border-radius: 5px;
+}
+.enviar{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: #81C3D7;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.limpar{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.limpar:hover{
+    background-color: #81C3D7;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+footer{
+    background-color: #a47fd1b4;
+    margin: auto;
+}
+footer > p{
+    padding: 5px;
+}
+#edson{
+    text-align: right;
+}
+#edson > a{
+    color: black;
 }

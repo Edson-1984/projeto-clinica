@@ -12,25 +12,101 @@
 
     </header>
     <main>
-        <h1>Preencha os campos abaixo e agende sua visita</h1>
+        <menu>
+            <ul class="menu">
+                <a href="index.html"><li>Página Principal</li></a>
+                <a href="institucional.html"><li>Institucional</li></a>
+                <a href="procedimentos.html"><li>Procedimentos</li></a>
+                <a href="dados.html"><li>Endereço</li></a>
+                <a href="agenda.html"><li>Agenda</li></a>
+            </ul>
+        </menu>
+        <h1 class="pagina6">Preencha os campos abaixo e agende sua consulta</h1>
     
-        <form action="cadastro.php">
-            <label for="inome">Nome: </label>
-            <input type="text" name="nome" id="inome"><br>
+        <form action="cadastro.php" method="POST" autocomplete="on">
+            <fieldset class="pessoal">
+                <legend>Dados Pessoais</legend>
+                    
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" autocomplete="username" required><br>
 
-            <label for="iemail">Email: </label>
-            <input type="email" name="email" id="iemail"><br>
+                <label for="iidade">Idade:</label>
+                <input type="number" name="idade" id="iidade"><br>
+    
+                <label for="iemail">Email: </label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required><br>
+    
+                <label for="ifone">Telefone: </label>
+                <input type="tel" name="fone" id="ifone" autocomplete="tel" required>
+            
+            </fieldset>
 
-            <label for="ifone">Telefone: </label>
-            <input type="tel" name="fone" id="ifone"><br>
 
-            <label for="imsg">Mensagem:</label>
-            <input type="text" name="msg" id="imsg">
+            <fieldset>
+                <legend>Endereço</legend>
+                <label for="iestado">Estado:</label>
+                <input type="text" name="" id=""><br>
+    
+                <label for="icep">CEP: </label>
+                <input type="number" name="cep" id="icep"><br>
+    
+                <label for="irua">Rua: </label>
+                <input type="text" name="rua" id="irua"><br>
+    
+                <label for="ibairro">Bairro: </label>
+                <input type="text" name="bairro" id="ibairro"><br>
+            </fieldset>
 
+
+            <fieldset>
+                <legend>Dados para agendamento de consulta</legend>
+                <h3>Escolha o procedimento desejado: </h3>
+                <select name="procedimentos" id="ilimpeza-de-pele">
+    
+                <option value="pro">Procedimentos</option>
+                <option value="l-p">Limpeza de Pele</option>
+                <option value="t-b">Toxina Butolínica</option>
+                <option value="me">Mesoterapia</option>
+                <option value="la">Lavieen</option>
+                <option value="h-f">Harmonização Facial</option>
+                <option value="ca">Carboxterapia</option>
+                <option value="d-l">Drenagem Linfática</option>
+                <option value="l-e">Lipo Enzimática</option>
+                </select>   
+    
+                <h3>Profissionais disponiveis: </h3>
+                <select name="" id="">
+    
+                <option value="">Escolha o profissional desejado</option>
+                <option value="ed">Dr. Edson Nóbrega</option>
+                <option value="en">Dra. Elisa Nóbrega</option>
+                <option value="en1">Dra. Elissandra Nóbrega</option>
+                <option value="ma">Dra. Maria Luiza</option>
+                <option value="fl">Dra. Fernada Linhares</option>
+                <option value="jm">Dra. Juliane Mendes</option>
+                <option value="jj">Dr. Jairo Jr.</option>
+                <option value="hl">Dra. Helena Linhares</option>
+                </select>  
+                
+                <label for="iho">Horario:</label>
+                <input type="time" name="ho" id="iho">
+    
+                <label for="idia">Horário:</label>
+                <input type="date" name="dia" id="idia"><br>
+    
+                <label for="ifoto">Adicione a requisição médica aqui:</label>
+                <input type="file" name="foto" id="ifoto">
+                
+            </fieldset>
+            <input type="submit" value="Enviar" class="enviar">
+            <input type="reset" value="Limpar" class="limpar">
         </form>
-    <a href="index.html">Página Principal</a>
-    </main>
+    
+    </main> 
     <footer>
+        <p>Clinica Déese de la Beauté - Todos os direitos reservados</p>
+        <p>CNPJ - 00.000.000/0001-00 / clinica@labeaute.com.br</p>
+        <p id="edson">Desenvolvido por - <a href="https://github.com/Edson-1984" target="blank">Edson Nóbrega</a> </p>
     </footer>
 </body>
 </html>
