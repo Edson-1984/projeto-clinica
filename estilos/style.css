@@ -148,7 +148,7 @@ h2{
 }
 article > p{
     padding: 20px;
-    width: 70%;
+    width: 90%;
     display: block;
     margin: auto;
     text-align: justify;
@@ -271,7 +271,7 @@ h1.pagina6{
 form{
     padding: 10px;
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 fieldset {
     display: block;
