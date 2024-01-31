@@ -19,9 +19,6 @@ header.index{
     position: relative;   
 }
 
-img#logo{
-    width: 20%;
-}
 header.index > h1{
     width: 50%;
     text-align: center;
@@ -109,7 +106,7 @@ li:hover{
     border-radius: 5px;
 }
 div.fundadora{
-    width: 60%;
+    width: 80%;
     display: block;
     margin: auto;
     padding: 15px;
@@ -130,6 +127,7 @@ div.fundadora > p{
     text-align: justify;
     text-indent: 30px;
     padding: 10px;
+    font-size: large;
     
 }
 h2{
@@ -153,6 +151,7 @@ article > p{
     margin: auto;
     text-align: justify;
     text-indent: 30px;
+    font-size: large;
 }
 h1.pagina2{
     background-image: linear-gradient(to top, #7D5BA6, #81C3D7);
