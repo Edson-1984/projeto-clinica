@@ -19,9 +19,8 @@ header.index{
     position: relative;   
 }
 
-header.index > img{
+img#logo{
     width: 20%;
-  
 }
 header.index > h1{
     width: 50%;
