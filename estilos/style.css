@@ -279,7 +279,9 @@ fieldset {
     margin: auto;
     margin-top: 10px;
     border-radius: 5px;
+    width: 90%;
 }
+
 fieldset > h3{
     margin: 10px;
 }
