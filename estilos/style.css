@@ -85,7 +85,7 @@ span.material-symbols-outlined{
     
 }
 span.material-symbols-outlined:hover{
-    background-color: rgb(182, 182, 182);
+    background-color: #81C3D7;
     color: #5a4f48;
     cursor: pointer;
 }
