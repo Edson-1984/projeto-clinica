@@ -6,12 +6,14 @@
     <title>Sobre a Clinica</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/medias.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header class="institucional">
     </header>
     <main>
-        <menu>
+        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul class="menu">
                 <a href="index.html"><li>Página Principal</li></a>
                 <a href="procedimentos.html"><li>Procedimentos</li></a>
@@ -52,6 +54,23 @@
    
     
     </main>
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 992){
+                itens.style.display = "block"
+            }else {
+                itens.style.display = 'none'
+            }
+        }
+       function clickMenu(){
+           if (itens.style.display == "block"){
+               itens.style.display = "none"
+           } else {
+               itens.style.display = "block"
+           }
+      
+       }
+   </script>
     <footer>
         <p>Clinica Déese de la Beauté - Todos os direitos reservados</p>
         <p>CNPJ - 00.000.000/0001-00 / clinica@labeaute.com.br</p>

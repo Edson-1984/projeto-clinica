@@ -5,10 +5,9 @@
         background-color: #b5e5f3;
        
     }
-    main{
+    body > main{
         background-color: white;
-        width: 80%;
-        display: block;
+        width: 80vw;
         margin: auto;
     }
     table.pagina4{
@@ -17,4 +16,19 @@
         width: 70%;
      
     }
+    span.material-symbols-outlined{
+        display: none;
+        
+    }
+    li{
+       text-align: center;
+        display:block;
+        background-color: #7D5BA6;
+        padding: 15px;
+        border:1px solid #81C3D7;
+    }
+    footer{
+        width: 80vw;
+    }
+
 }
