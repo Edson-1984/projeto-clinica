@@ -200,6 +200,9 @@ h1.pagina3{
 li.pagina3{
     color: #81C3D7;
 }
+li.pagina3:hover{
+    color: #7D5BA6;
+}
 h1.pagina4{
     background-image: linear-gradient(to top, #7D5BA6, #81C3D7);
     font-family: 'paradiso';
